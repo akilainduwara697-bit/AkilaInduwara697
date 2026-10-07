@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@500;600;700&display=swap');
+
+:root {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f5f1ee;
+  background: #070d1a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color-scheme: dark;
+  --bg: #070d1a;
+  --bg-soft: #0d1527;
+  --panel: rgba(17, 24, 38, 0.92);
+  --panel-alt: rgba(255, 255, 255, 0.03);
+  --line: rgba(148, 166, 205, 0.18);
+  --text: #f5f1ee;
+  --muted: rgba(245, 241, 238, 0.72);
+  --gold: #d7b78b;
+  --gold-soft: #e8d1ab;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top, rgba(94, 131, 200, 0.2), transparent 32%),
+    linear-gradient(180deg, #070d1a 0%, #0b1220 100%);
+  color: var(--text);
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+::selection {
+  background: rgba(215, 183, 139, 0.38);
+}
